@@ -1,1 +1,1 @@
-#Coding Test Practices
+Coding Test Practices
