@@ -10,7 +10,7 @@ def solution(gems):
     for gem in gems:
         gems_dict[gem] = gems_dict.get(gem,0)
     
-    while l_cur < len(gems) and r_cur < len(gems) and l_cur<=r_cur:
+    while l_cur < len(gems)-1 and r_cur < len(gems)-1 and l_cur<=r_cur:
         gems_dict[gems[r_cur]]+=1
         yet = 0
         
