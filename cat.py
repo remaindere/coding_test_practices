@@ -1,3 +1,3 @@
 print("\\    /\\"," )  ( ')","(  /  )"," \\(__)|",sep='\n')
 
-#backjoon, https://www.acmicpc.net/problem/10171
+#baekjoon, https://www.acmicpc.net/problem/10171
