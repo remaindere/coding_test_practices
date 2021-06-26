@@ -1,11 +1,12 @@
 N = int(input())
 sugar = 0
-while N > 0 :
+while N >= 0 : # while sugar bags are exist
   if N % 5 == 0 :
-    sugar += N / 5
+    sugar += N // 5
     break
-  else :
-    N = N - 3
-    sugar += 1
-return sugar
+  N = N - 3
+  sugar += 1
+else : # N < 0, it can't be divided by zero
+  print(-1)
+print(sugar)
 # beakjoon, https://www.acmicpc.net/problem/2839
