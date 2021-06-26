@@ -14,3 +14,5 @@ if N < 0 : # it can't be divided by zero
   print(-1)
 else : # div process ended successful
   print(sugar)
+
+# baekjoon, https://www.acmicpc.net/problem/2839
